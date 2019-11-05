@@ -1,5 +1,5 @@
 {
-  "executionRoleArn": "arn:aws:iam::344311110085:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::374553884378:role/ecsTaskExecutionRole",
   "containerDefinitions": [
       {
           "name": "app",
@@ -15,7 +15,7 @@
           "essential": true
       }
   ],
-  "family": "codedeploy-taskdefination",
+  "family": "s3-task",
   "networkMode": "awsvpc",
   "requiresCompatibilities": [
       "FARGATE"
